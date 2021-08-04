@@ -9,8 +9,10 @@ header:
   url: /business
 - title: ブログ
   url: https://note.com/takaking22/m/mdc7a6bb0e2b9
+  open_new_tab: true
 - title: Podcast
   url: https://anchor.fm/silver-bullet-club
+  open_new_tab: true
 - title: お問い合わせ
   url: /#contact
 - title: SNSでシェア

@@ -11,7 +11,7 @@
       <ul class="navbar-nav ml-auto my-2 my-lg-0">
         {% for item in site.data.menus.header  %}
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            <a class="nav-link js-scroll-trigger" href="{{ item.url | relative_url }}" {% if item.open_new_tab %}target="_blank"{% endif %}>{{ item.title }}</a>
           </li>
         {% endfor %}
       </ul>
