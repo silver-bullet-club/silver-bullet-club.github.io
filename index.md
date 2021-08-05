@@ -1,24 +1,17 @@
 ---
 layout: home
 header:
-  title: チーム複業はじめました！
+  title: 己が銀の弾丸たれ
   text: >
-    個人ではなくチームでお仕事をお請けします。普段から一緒に働いているチームだからこそ可能なご支援の形があると私達は信じています。
+    ソフトウェア開発ではさまざまな技術要素や開発プロセスを指して「銀の弾丸はない」と言われることがありますが、私たちSilver Bullet Clubはチームが銀の弾丸になることを目指しています。
   action: # action button is optional
     label: Silver Bullet Clubについて
-    url: '#profile'
+    url: '/team'
 
 sections:
+
   - type: members.html
 
-  - type: services.html
-
-  - type: recommend.html
-
-  - type: note.html
-
   - type: contact.html
-
-  - type: share_links.html
 
 ---

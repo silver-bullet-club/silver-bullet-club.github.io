@@ -14,6 +14,5 @@ header:
   url: https://anchor.fm/silver-bullet-club
   open_new_tab: true
 - title: お問い合わせ
-  url: /#contact
-- title: SNSでシェア
-  url: /#share-links
+  url: https://forms.gle/ADhccT2iznTWMaJy8
+  open_new_tab: true
