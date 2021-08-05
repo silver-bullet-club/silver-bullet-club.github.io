@@ -3,19 +3,16 @@
 # However on github-pages custom plugins are disabled, and the script doesn't
 # run. So please, fill in any custom menu entry here.
 header:
-- title: プロフィール
-  url: /#profile
-- title: サービス
-  url: /#services
+- title: チーム
+  url: /team
+- title: 仕事の依頼
+  url: /business
 - title: ブログ
   url: https://note.com/takaking22/m/mdc7a6bb0e2b9
+  open_new_tab: true
 - title: Podcast
   url: https://anchor.fm/silver-bullet-club
-- title: Youtube
-  url: https://www.youtube.com/channel/UC2WNGm9_cF2xUlBLXAaJOOQ?sub_confirmation=1
-- title: チームレジュメ
-  url: https://silver-bullet-club.github.io/team-resume/
+  open_new_tab: true
 - title: お問い合わせ
-  url: /#contact
-- title: SNSでシェア
-  url: /#share-links
+  url: https://forms.gle/ADhccT2iznTWMaJy8
+  open_new_tab: true
