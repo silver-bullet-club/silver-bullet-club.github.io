@@ -27,3 +27,4 @@ defaults:
       type: posts
     values:
       layout: post
+      image: /assets/img/silverbulletclub_banner.png

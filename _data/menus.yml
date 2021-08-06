@@ -7,6 +7,8 @@ header:
   url: /team
 - title: 仕事の依頼
   url: /business
+- title: お知らせ
+  url: /news
 - title: ブログ
   url: https://note.com/takaking22/m/mdc7a6bb0e2b9
   open_new_tab: true

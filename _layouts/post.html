@@ -3,8 +3,8 @@ layout: base
 ---
 
 <!-- Header -->
-<header class="masthead pagehead" {% if page.background_image %} style="background-image: {{ page.background_image }}"{% endif %} >
-  <div class="container h-100">
+<header class="masthead pagehead" {% if page.background_image %} style="background-image: {{ page.background_image }}"{% endif %}>
+  <!-- <div class="container h-100">
     <div class="row h-100 align-items-center justify-content-center text-center">
       <div class="col-lg-10 ">
         <h1 class="text-white font-weight-bold">{{ page.title }}</small></h1>
@@ -12,25 +12,42 @@ layout: base
         <span class="text-white">{{ page.date | date_to_string }}</span>
       </div>
     </div>
-  </div>
+  </div> -->
 </header>
 
 <!-- include content as section -->
 {% assign content = content | strip_newlines %}
 <section class="page-section">
-  <div class="container">
-    <div>
-      Share :
-      <a href="http://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}&hashtags=silverbulletclub" target="_blank" rel="nofollow noopener noreferrer">
-        <i class="fab fa-twitter-square"></i>
+  <div id="post" class="container px-3" style="max-width: 800px;">
+    <h1>{{ page.title }}</h1>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="text-muted">{{ page.date | date_to_string }}</div>
+      <div>
+        <a class="mr-1" href="http://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}&hashtags=silverbulletclub" target="_blank" rel="nofollow noopener noreferrer">
+          <i class="fab fa-twitter-square fa-2x"></i>
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"
+          target="_blank"
+          rel="nofollow noopener noreferrer">
+          <i class="fab fa-facebook-square fa-2x"></i>
+        </a>
+      </div>
+    </div>
+    <div class="my-5"></div>
+    <img class="mb-5" src="{{ page.image }}" width="100%" alt="">
+    {{ content }}
+    <div class="text-right">
+      <a class="mr-1" href="http://twitter.com/share?url={{ page.url | absolute_url }}&text={{ page.title }}&hashtags=silverbulletclub" target="_blank" rel="nofollow noopener noreferrer">
+        <i class="fab fa-twitter-square fa-2x"></i>
       </a>
       <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}"
         target="_blank"
         rel="nofollow noopener noreferrer">
-        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-facebook-square fa-2x"></i>
       </a>
     </div>
-
-    {{ content }}
+  </div>
+  <div class="container" style="max-width: 800px;">
+    {% include news.html %}
   </div>
 </section>
