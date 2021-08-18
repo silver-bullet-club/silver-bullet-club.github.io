@@ -10,6 +10,8 @@ header:
 
 sections:
 
+  - type: news.html
+
   - type: members.html
 
   - type: contact.html

@@ -2,8 +2,8 @@
 title: Silver Bullet Club
 description: > # this means to ignore newlines until "baseurl:"
   Silver Bullet ClubのWEBサイトです。チームへの仕事の依頼はこちらからどうぞ。
-author: Copyright &copy; 2019 - Silver Bullet Club
-lang: en_US
+author: Silver Bullet Club
+lang: ja_JP
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
@@ -20,3 +20,11 @@ exclude:
   - Gemfile.lock
   - build-in-docker.sh
   - README.md
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: /assets/img/silverbulletclub_banner.png
