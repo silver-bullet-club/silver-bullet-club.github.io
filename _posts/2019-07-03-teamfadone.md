@@ -8,7 +8,7 @@ image: /assets/img/teamfadone.jpg
 
 2019年1月末にチームでFA宣言をしました。この度、無事にチーム転職することができたのでここにご報告いたします。
 
-7月1日付けで、[株式会社デンソー](https://www.denso.com/jp/ja/)にチームごと移籍しました。MaaS開発部でクルマの未来を創る予定です。
+7月1日付けで、[株式会社デンソー](https://www.denso.com/jp/ja/){:target="_blank"}にチームごと移籍しました。MaaS開発部でクルマの未来を創る予定です。
 
 転職先について書きたいことはたくさんありますが、今回はチームFA宣言の完結を中心に書くことにします。
 
@@ -37,7 +37,7 @@ image: /assets/img/teamfadone.jpg
 > 
 > いったんＦＡ宣言しても、もとの球団に残留することもできる。
 > 
-> <cite>[FA宣言 - weblio辞書](https://www.weblio.jp/content/FA%E5%AE%A3%E8%A8%80) より</cite>
+> <cite>[FA宣言 - weblio辞書](https://www.weblio.jp/content/FA%E5%AE%A3%E8%A8%80){:target="_blank"} より</cite>
 
 最終的に転職をすることにはなりましたが、所属していた会社の他部署などからもお声がけいただきました。
 
