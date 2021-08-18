@@ -4,20 +4,33 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "member-box",
-        "timeline",
-        "page",
-        "icons"
-;
-
+@import "member-box", "timeline", "page", "icons";
 
 #post {
-        h2 {
-                margin: 50px 0 25px;
-        }
-        p,li {
-                font-size: 18px;
-                line-height: 2em;
-        }
+  h2 {
+    margin: 50px 0 25px;
+  }
+  p,
+  li {
+    font-size: 18px;
+    line-height: 2em;
+  }
+  blockquote {
+    padding: 15px 15px 8px 15px;
+    box-sizing: border-box;
+    font-style: italic;
+    background: #efefef;
+    color: #555;
+  }
+  blockquote p {
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.7;
+  }
+  blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+  }
 }
