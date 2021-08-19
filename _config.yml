@@ -30,3 +30,10 @@ defaults:
     values:
       layout: post
       image: /assets/img/silverbulletclub_banner.png
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      image: /assets/img/silverbulletclub_banner.png
+  
