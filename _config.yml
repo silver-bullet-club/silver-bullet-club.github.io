@@ -3,6 +3,7 @@ title: Silver Bullet Club
 description: > # this means to ignore newlines until "baseurl:"
   Silver Bullet ClubのWEBサイトです。チームへの仕事の依頼はこちらからどうぞ。
 author: Silver Bullet Club
+url: https://silver-bullet.club
 lang: ja_JP
 
 # Build settings
@@ -13,6 +14,7 @@ sass:
   style: compressed
   precision: 10
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 exclude:
