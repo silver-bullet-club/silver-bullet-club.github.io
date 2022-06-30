@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
 author: Silver Bullet Club
 url: https://silver-bullet.club
 lang: ja_JP
+timezone: Asia/Tokyo
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
@@ -36,4 +37,4 @@ defaults:
     values:
       layout: page
       image: /assets/img/silverbulletclub_banner.png
-  
+
